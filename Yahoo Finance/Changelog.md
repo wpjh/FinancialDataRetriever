@@ -19,5 +19,3 @@
 ## [1.0] - 2024-02-28
 
 Obtained the original code of the `Financial Data Retriever`
-
-TESTTEST
