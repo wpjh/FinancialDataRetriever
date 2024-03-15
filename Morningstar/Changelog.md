@@ -17,7 +17,7 @@
 ### Changes
 
 - New `download_morningstar_excel` function
-- the `main` function has been entirely rewritten
+- The `main` function has been entirely rewritten
 
 ### Fixed issues
 
