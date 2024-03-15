@@ -127,7 +127,7 @@ def download_morningstar_excel(ticker):
 
 def main():
     # List of tickers
-    tickers = ['AAPL', 'MSFT']  # Feel free to change the ticker of the company you want to analyse. However, do not add more than one tickers as the code will seemingly stop working normally.
+    tickers = ['AAPL', 'MSFT']  # Feel free to change the ticker of the company you want to analyse.
 
     # Download financial data for each ticker
     for ticker in tickers:
