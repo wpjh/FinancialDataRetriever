@@ -1,3 +1,7 @@
+## [Known issues]
+
+- The code is seemingly unable to download the financial information for multiple tickers. This issue will be fixed in the next iteration of the code.
+
 ## [0.1] - 2024-03-12
 
 - The code is now perfectly functioning, and allows users to successfully export/download financial data from MorningStar based on the selected ticker.
