@@ -1,6 +1,22 @@
-## [Known issues]
+## [0.2] - 2024-03-15
 
-- The code is seemingly unable to download the financial information for multiple tickers. This issue will be fixed in the next iteration of the code.
+- The code can now download the financial information of multiple tickers without a problem
+- The ETA of the code has been slightly increased to allow for slower connections to fully run the code
+
+### Major changes
+
+- Added the possibility to download information from multiple tickers
+
+### Changes
+
+- Modified the `main` and the `download_morningstar_excel` functions to allow for the download of information from multiple tickers
+- The `time.pause()` has been increased from `3` to `5`, to allow downloads for slower connections
+- Moreover, this increased length gives time for the code to rename, move, and merge successfully each downloaded file
+- The code now deletes the folders and files it created successfully
+
+### Fixed issues
+
+- Fixed: The code was creating unnecessary files on the Desktop.
 
 ## [0.1] - 2024-03-12
 
